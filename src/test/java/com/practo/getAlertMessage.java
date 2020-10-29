@@ -14,14 +14,13 @@ public class getAlertMessage extends CreateReport {
 
 	@DataProvider(name = "TestData")
 	public Object[][] getTestData() {
-		return new Object[][] {
-				{ "Anshul", "Cognizant", "anshul", "9876543210" },
-				{ "Amrita", "TCS", "amrita@gmail.com", "987654" } };
+		Object[][] data = ReadExcelData.getExcelData();
+		return data;
 	}
 
 	@Test(dataProvider = "TestData")
 	public void alertMessage(String name, String compName, String email,
-			String phone) throws IOException {
+			String phone, String type) throws IOException {
 
 		WebDriver driver = HandleBrowser.launchBrowser();
 
@@ -30,7 +29,7 @@ public class getAlertMessage extends CreateReport {
 		test = extent.createTest("Alert Message Verification");
 
 		driver.get("https://www.practo.com/plus/corporate");
-		
+
 		waitLoad.until(ExpectedConditions.elementToBeClickable(By
 				.cssSelector("button#button-style")));
 		driver.findElement(By.id("name")).sendKeys(name);
@@ -42,11 +41,43 @@ public class getAlertMessage extends CreateReport {
 		String errorMes = driver.switchTo().alert().getText();
 		System.out.println(errorMes);
 		driver.switchTo().alert().accept();
-		
-		String data = "**Name: " + name + " **Company: " + compName + " **E-Mail: " + email + " **Phone: " + phone;
-		
+
+		String data = "**Name: " + name + " **Company: " + compName
+				+ " **E-Mail: " + email + " **Phone: " + phone;
+
 		test.log(Status.INFO, data);
-		test.log(Status.PASS, errorMes);
+		test.log(Status.INFO, "Test Type: " + type);
+
+		switch (type) {
+		case "Invalid Email":
+			if (errorMes.equals("Please enter valid email address"))
+				test.log(Status.PASS, errorMes);
+			else
+				test.log(Status.FAIL, errorMes);
+			break;
+
+		case "Invalid Phone Number":
+			if (errorMes.equals("Please enter valid phone no"))
+				test.log(Status.PASS, errorMes);
+			else
+				test.log(Status.FAIL, errorMes);
+			break;
+
+		case "Invalid Name":
+			if (errorMes.equals("Please enter valid name"))
+				test.log(Status.PASS, errorMes);
+			else
+				test.log(Status.FAIL, errorMes);
+			break;
+
+		case "Valid Data":
+			if (errorMes
+					.equals("Thanks, for showing We have received your request, our team will contact you shortly."))
+				test.log(Status.PASS, errorMes);
+			else
+				test.log(Status.FAIL, errorMes);
+			break;
+		}
 
 		HandleBrowser.closeBrowser(driver);
 	}
