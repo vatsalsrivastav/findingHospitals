@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Finding Hospitals">
+  	<test name="Verifying Search Page">
+    	<classes>
+      		<class name="com.practo.verifySearchResults"/>
+    	</classes>
+  	</test> 
+  	<test name="Verifying Top Cities">
+		<classes>
+			<class name="com.practo.verifyTopCities"/>
+		</classes>
+	</test>
+	<test name="Getting Alert Message">
+		<classes>
+			<class name="com.practo.getAlertMessage"/>
+		</classes>
+	</test>
+</suite> 

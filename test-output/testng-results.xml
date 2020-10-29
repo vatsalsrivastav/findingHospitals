@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Finding Hospitals" duration-ms="63383" started-at="2020-10-29T05:48:00Z" finished-at="2020-10-29T05:49:03Z">
+    <groups>
+    </groups>
+    <test name="Verifying Search Page" duration-ms="21306" started-at="2020-10-29T05:48:00Z" finished-at="2020-10-29T05:48:21Z">
+      <class name="com.practo.verifySearchResults">
+        <test-method status="PASS" signature="checkSearchPage()[pri:0, instance:com.practo.verifySearchResults@5e5792a0]" name="checkSearchPage" duration-ms="21284" started-at="2020-10-29T11:18:00Z" finished-at="2020-10-29T11:18:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchPage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.verifySearchResults@5e5792a0]" name="getResult" is-config="true" duration-ms="3" started-at="2020-10-29T11:18:21Z" finished-at="2020-10-29T11:18:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkSearchPage status=SUCCESS method=verifySearchResults.checkSearchPage()[pri:0, instance:com.practo.verifySearchResults@5e5792a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.practo.verifySearchResults -->
+    </test> <!-- Verifying Search Page -->
+    <test name="Verifying Top Cities" duration-ms="17662" started-at="2020-10-29T05:48:21Z" finished-at="2020-10-29T05:48:39Z">
+      <class name="com.practo.verifyTopCities">
+        <test-method status="PASS" signature="countCities()[pri:0, instance:com.practo.verifyTopCities@5442a311]" name="countCities" duration-ms="17659" started-at="2020-10-29T11:18:21Z" finished-at="2020-10-29T11:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countCities -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.verifyTopCities@5442a311]" name="getResult" is-config="true" duration-ms="0" started-at="2020-10-29T11:18:39Z" finished-at="2020-10-29T11:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=countCities status=SUCCESS method=verifyTopCities.countCities()[pri:0, instance:com.practo.verifyTopCities@5442a311] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.practo.verifyTopCities -->
+    </test> <!-- Verifying Top Cities -->
+    <test name="Getting Alert Message" duration-ms="24399" started-at="2020-10-29T05:48:39Z" finished-at="2020-10-29T05:49:03Z">
+      <class name="com.practo.getAlertMessage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="setUp" is-config="true" duration-ms="236" started-at="2020-10-29T11:18:00Z" finished-at="2020-10-29T11:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="12484" started-at="2020-10-29T11:18:39Z" data-provider="TestData" finished-at="2020-10-29T11:18:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anshul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cognizant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anshul]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2020-10-29T11:18:51Z" finished-at="2020-10-29T11:18:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="11908" started-at="2020-10-29T11:18:51Z" data-provider="TestData" finished-at="2020-10-29T11:19:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amrita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[amrita@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[987654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-10-29T11:19:03Z" finished-at="2020-10-29T11:19:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="tearDown" is-config="true" duration-ms="311" started-at="2020-10-29T11:19:03Z" finished-at="2020-10-29T11:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.practo.getAlertMessage -->
+    </test> <!-- Getting Alert Message -->
+  </suite> <!-- Finding Hospitals -->
+</testng-results>
