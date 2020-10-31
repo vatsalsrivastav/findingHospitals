@@ -5,14 +5,12 @@
     <classes>
       <class name="com.practo.getAlertMessage">
         <methods>
-          <include name="alertMessage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="alertMessage"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.practo.getAlertMessage -->
-      <class name="com.practo.verifySearchResults">
-        <methods>
-          <include name="checkSearchPage"/>
-        </methods>
-      </class> <!-- com.practo.verifySearchResults -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

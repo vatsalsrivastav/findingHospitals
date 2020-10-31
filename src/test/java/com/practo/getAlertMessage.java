@@ -2,6 +2,7 @@ package com.practo;
 
 import java.io.*;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -38,9 +39,10 @@ public class getAlertMessage extends CreateReport {
 		driver.findElement(By.id("official_phone_no")).sendKeys(phone);
 		driver.findElement(By.id("button-style")).click();
 		System.out.println("\nError Message:");
-		String errorMes = driver.switchTo().alert().getText();
+		Alert alert = waitLoad.until(ExpectedConditions.alertIsPresent());
+		String errorMes = alert.getText();
 		System.out.println(errorMes);
-		driver.switchTo().alert().accept();
+		alert.accept();
 
 		String data = "**Name: " + name + " **Company: " + compName
 				+ " **E-Mail: " + email + " **Phone: " + phone;

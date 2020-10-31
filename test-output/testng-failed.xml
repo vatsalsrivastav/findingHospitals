@@ -1,40 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Finding Hospitals]">
-  <test name="Verifying Search Page(failed)">
-    <classes>
-      <class name="com.practo.verifySearchResults">
-        <methods>
-          <include name="setUp"/>
-          <include name="checkSearchPage"/>
-          <include name="getResult"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.practo.verifySearchResults -->
-    </classes>
-  </test> <!-- Verifying Search Page(failed) -->
-  <test name="Verifying Top Cities(failed)">
-    <classes>
-      <class name="com.practo.verifyTopCities">
-        <methods>
-          <include name="setUp"/>
-          <include name="getResult"/>
-          <include name="countCities"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.practo.verifyTopCities -->
-    </classes>
-  </test> <!-- Verifying Top Cities(failed) -->
-  <test name="Getting Alert Message(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="com.practo.getAlertMessage">
         <methods>
           <include name="setUp"/>
           <include name="getResult"/>
-          <include name="alertMessage" invocation-numbers="0"/>
+          <include name="alertMessage"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.practo.getAlertMessage -->
     </classes>
-  </test> <!-- Getting Alert Message(failed) -->
-</suite> <!-- Failed suite [Finding Hospitals] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

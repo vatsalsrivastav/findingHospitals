@@ -2,6 +2,7 @@ package com.practo;
 
 import java.util.*;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.*;
@@ -55,12 +56,13 @@ public class CorporateWellness {
 		driver.findElement(By.id("organization_name")).sendKeys("ABC");
 		driver.findElement(By.id("official_email_id"))
 				.sendKeys("ABC@gmail.com");
-		driver.findElement(By.id("official_phone_no")).sendKeys("123456");
+		driver.findElement(By.id("official_phone_no")).sendKeys("9870123456");
 		driver.findElement(By.id("button-style")).click();
 		
 		//Printing the error message received from the alert box.
+		Alert alert = waitLoad.until(ExpectedConditions.alertIsPresent());
 		System.out.println("\nError Message:");
-		System.out.println(driver.switchTo().alert().getText());
-		driver.switchTo().alert().accept();
+		System.out.println(alert.getText());
+		alert.accept();
 	}
 }
