@@ -1,4 +1,4 @@
-package com.practo;
+package com.utils;
 
 import java.io.*;
 
@@ -16,7 +16,7 @@ public class ReadExcelData {
 		String[][] arrayExcelData = null;
 		
 		try {
-			String excelLocation = System.getProperty("user.dir") + "/src/test/java/com/practo/PractoCW_Test.xlsx";
+			String excelLocation = System.getProperty("user.dir") + "/PractoCW_Test.xlsx";
 			FileInputStream file = new FileInputStream(new File(excelLocation));
 			XSSFWorkbook workbook = new XSSFWorkbook(file);
 			XSSFSheet sheet = workbook.getSheet("TestData");

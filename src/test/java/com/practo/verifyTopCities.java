@@ -6,9 +6,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.*;
+import org.testng.AssertJUnit;
 import org.testng.annotations.*;
 
 import com.aventstack.extentreports.Status;
+import com.utils.CreateReport;
+import com.utils.HandleBrowser;
 
 public class verifyTopCities extends CreateReport {
 
@@ -39,6 +42,7 @@ public class verifyTopCities extends CreateReport {
 			test.log(Status.PASS, "Top Cities Retrieved");
 		} else {
 			test.log(Status.FAIL, "Top Cities Not Retrieved Correctly");
+			AssertJUnit.fail();
 		}
 
 		HandleBrowser.closeBrowser(driver);

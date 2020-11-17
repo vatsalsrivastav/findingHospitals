@@ -56,7 +56,7 @@ public class CorporateWellness {
 		driver.findElement(By.id("organization_name")).sendKeys("ABC");
 		driver.findElement(By.id("official_email_id"))
 				.sendKeys("ABC@gmail.com");
-		driver.findElement(By.id("official_phone_no")).sendKeys("987012");
+		driver.findElement(By.id("official_phone_no")).sendKeys("987012");		//Sending wrong phone number here.
 		driver.findElement(By.id("button-style")).click();
 		
 		//Printing the error message received from the alert box.

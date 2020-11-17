@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="22" passed="22">
   <reporter-output>
   </reporter-output>
-  <suite name="Finding Hospitals" duration-ms="64080" started-at="2020-10-29T09:01:11Z" finished-at="2020-10-29T09:02:15Z">
+  <suite name="Finding Hospitals" duration-ms="170204" started-at="2020-11-16T09:18:18Z" finished-at="2020-11-16T09:21:08Z">
     <groups>
     </groups>
-    <test name="Verifying Search Page" duration-ms="21874" started-at="2020-10-29T09:01:11Z" finished-at="2020-10-29T09:01:33Z">
+    <test name="Verifying Search Page" duration-ms="13722" started-at="2020-11-16T09:18:18Z" finished-at="2020-11-16T09:18:32Z">
       <class name="com.practo.verifySearchResults">
-        <test-method status="PASS" signature="checkSearchPage()[pri:0, instance:com.practo.verifySearchResults@246ae04d]" name="checkSearchPage" duration-ms="21861" started-at="2020-10-29T14:31:11Z" finished-at="2020-10-29T14:31:33Z">
+        <test-method status="PASS" signature="checkSearchPage()[pri:0, instance:com.practo.verifySearchResults@246ae04d]" name="checkSearchPage" duration-ms="13707" started-at="2020-11-16T14:48:18Z" finished-at="2020-11-16T14:48:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSearchPage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.verifySearchResults@246ae04d]" name="getResult" is-config="true" duration-ms="3" started-at="2020-10-29T14:31:33Z" finished-at="2020-10-29T14:31:33Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.verifySearchResults@246ae04d]" name="getResult" is-config="true" duration-ms="2" started-at="2020-11-16T14:48:32Z" finished-at="2020-11-16T14:48:32Z">
           <params>
             <param index="0">
               <value>
@@ -24,13 +24,13 @@
         </test-method> <!-- getResult -->
       </class> <!-- com.practo.verifySearchResults -->
     </test> <!-- Verifying Search Page -->
-    <test name="Verifying Top Cities" duration-ms="17903" started-at="2020-10-29T09:01:33Z" finished-at="2020-10-29T09:01:51Z">
+    <test name="Verifying Top Cities" duration-ms="13124" started-at="2020-11-16T09:18:32Z" finished-at="2020-11-16T09:18:45Z">
       <class name="com.practo.verifyTopCities">
-        <test-method status="PASS" signature="countCities()[pri:0, instance:com.practo.verifyTopCities@67b6d4ae]" name="countCities" duration-ms="17901" started-at="2020-10-29T14:31:33Z" finished-at="2020-10-29T14:31:51Z">
+        <test-method status="PASS" signature="countCities()[pri:0, instance:com.practo.verifyTopCities@67b6d4ae]" name="countCities" duration-ms="13123" started-at="2020-11-16T14:48:32Z" finished-at="2020-11-16T14:48:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- countCities -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.verifyTopCities@67b6d4ae]" name="getResult" is-config="true" duration-ms="0" started-at="2020-10-29T14:31:51Z" finished-at="2020-10-29T14:31:51Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.verifyTopCities@67b6d4ae]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T14:48:45Z" finished-at="2020-11-16T14:48:45Z">
           <params>
             <param index="0">
               <value>
@@ -43,13 +43,13 @@
         </test-method> <!-- getResult -->
       </class> <!-- com.practo.verifyTopCities -->
     </test> <!-- Verifying Top Cities -->
-    <test name="Getting Alert Message" duration-ms="24287" started-at="2020-10-29T09:01:51Z" finished-at="2020-10-29T09:02:15Z">
+    <test name="Getting Alert Message" duration-ms="143341" started-at="2020-11-16T09:18:45Z" finished-at="2020-11-16T09:21:08Z">
       <class name="com.practo.getAlertMessage">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="setUp" is-config="true" duration-ms="155" started-at="2020-10-29T14:31:11Z" finished-at="2020-10-29T14:31:11Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="setUp" is-config="true" duration-ms="227" started-at="2020-11-16T14:48:18Z" finished-at="2020-11-16T14:48:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="12286" started-at="2020-10-29T14:31:51Z" data-provider="TestData" finished-at="2020-10-29T14:32:03Z">
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="6611" started-at="2020-11-16T14:48:46Z" data-provider="TestData" finished-at="2020-11-16T14:48:52Z">
           <params>
             <param index="0">
               <value>
@@ -71,15 +71,31 @@
                 <![CDATA[9876543210]]>
               </value>
             </param>
+            <param index="4">
+              <value>
+                <![CDATA[Invalid Email]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="11998" started-at="2020-10-29T14:32:03Z" data-provider="TestData" finished-at="2020-10-29T14:32:15Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="1" started-at="2020-11-16T14:48:52Z" finished-at="2020-11-16T14:48:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Amrita]]>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="6743" started-at="2020-11-16T14:48:52Z" data-provider="TestData" finished-at="2020-11-16T14:48:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sharman]]>
               </value>
             </param>
             <param index="1">
@@ -89,41 +105,791 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[amrita@gmail.com]]>
+                <![CDATA[shar.man]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[987654]]>
+                <![CDATA[9875642130]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Invalid Email]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="0" started-at="2020-10-29T14:32:03Z" finished-at="2020-10-29T14:32:03Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T14:48:59Z" finished-at="2020-11-16T14:48:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="1" started-at="2020-10-29T14:32:15Z" finished-at="2020-10-29T14:32:15Z">
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="6412" started-at="2020-11-16T14:48:59Z" data-provider="TestData" finished-at="2020-11-16T14:49:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+                <![CDATA[Nimish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HCL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nim.ish@gmail]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9875642130]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Invalid Email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="6392" started-at="2020-11-16T14:49:05Z" data-provider="TestData" finished-at="2020-11-16T14:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Charles]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cognizant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mark.shot.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9875642130]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Invalid Email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T14:49:05Z" finished-at="2020-11-16T14:49:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="tearDown" is-config="true" duration-ms="322" started-at="2020-10-29T14:32:15Z" finished-at="2020-10-29T14:32:16Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="1" started-at="2020-11-16T14:49:12Z" finished-at="2020-11-16T14:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="6508" started-at="2020-11-16T14:49:12Z" data-provider="TestData" finished-at="2020-11-16T14:49:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rizwan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cognizant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[riz@gmail]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9875642130]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Invalid Email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="1" started-at="2020-11-16T14:49:18Z" finished-at="2020-11-16T14:49:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="7055" started-at="2020-11-16T14:49:18Z" data-provider="TestData" finished-at="2020-11-16T14:49:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anshul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cognizant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anshul@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Invalid Phone Number]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T14:49:25Z" finished-at="2020-11-16T14:49:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="7911" started-at="2020-11-16T14:49:25Z" data-provider="TestData" finished-at="2020-11-16T14:49:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sharman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sharman@outlook.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[989987]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Invalid Phone Number]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="7857" started-at="2020-11-16T14:49:33Z" data-provider="TestData" finished-at="2020-11-16T14:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nimish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HCL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nim2ish@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8554756]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Invalid Phone Number]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T14:49:33Z" finished-at="2020-11-16T14:49:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="1" started-at="2020-11-16T14:49:41Z" finished-at="2020-11-16T14:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="6545" started-at="2020-11-16T14:49:41Z" data-provider="TestData" finished-at="2020-11-16T14:49:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Charles]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cognizant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mark@shot.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[98756987]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Invalid Phone Number]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="1" started-at="2020-11-16T14:49:48Z" finished-at="2020-11-16T14:49:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="7049" started-at="2020-11-16T14:49:48Z" data-provider="TestData" finished-at="2020-11-16T14:49:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rizwan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cognizant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[riz@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[88956466]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Invalid Phone Number]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="1" started-at="2020-11-16T14:49:55Z" finished-at="2020-11-16T14:49:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="7576" started-at="2020-11-16T14:49:55Z" data-provider="TestData" finished-at="2020-11-16T14:50:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[toh_@as]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cognizant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anshul@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Invalid Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="1" started-at="2020-11-16T14:50:02Z" finished-at="2020-11-16T14:50:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="8248" started-at="2020-11-16T14:50:02Z" data-provider="TestData" finished-at="2020-11-16T14:50:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123shish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sharman@outlook.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9875642130]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Invalid Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T14:50:11Z" finished-at="2020-11-16T14:50:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="7006" started-at="2020-11-16T14:50:11Z" data-provider="TestData" finished-at="2020-11-16T14:50:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ard_sharma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HCL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nim2ish@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9875642130]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Invalid Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="1" started-at="2020-11-16T14:50:18Z" finished-at="2020-11-16T14:50:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="6931" started-at="2020-11-16T14:50:18Z" data-provider="TestData" finished-at="2020-11-16T14:50:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arsh.22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cognizant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mark@shot.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9875642130]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Invalid Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="1" started-at="2020-11-16T14:50:24Z" finished-at="2020-11-16T14:50:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="7628" started-at="2020-11-16T14:50:24Z" data-provider="TestData" finished-at="2020-11-16T14:50:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shimi/12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cognizant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[riz@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9875642130]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Invalid Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="1" started-at="2020-11-16T14:50:32Z" finished-at="2020-11-16T14:50:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="6912" started-at="2020-11-16T14:50:32Z" data-provider="TestData" finished-at="2020-11-16T14:50:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anshul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cognizant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anshul@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Valid Data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T14:50:39Z" finished-at="2020-11-16T14:50:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="6891" started-at="2020-11-16T14:50:39Z" data-provider="TestData" finished-at="2020-11-16T14:50:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sharman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sharman@outlook.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Valid Data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="1" started-at="2020-11-16T14:50:46Z" finished-at="2020-11-16T14:50:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="7142" started-at="2020-11-16T14:50:46Z" data-provider="TestData" finished-at="2020-11-16T14:50:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nimish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HCL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nim2ish@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Valid Data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="7940" started-at="2020-11-16T14:50:53Z" data-provider="TestData" finished-at="2020-11-16T14:51:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Charles]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cognizant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mark@shot.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Valid Data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T14:50:53Z" finished-at="2020-11-16T14:50:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T14:51:01Z" finished-at="2020-11-16T14:51:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="alertMessage" duration-ms="7375" started-at="2020-11-16T14:51:01Z" data-provider="TestData" finished-at="2020-11-16T14:51:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rizwan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cognizant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[riz@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Valid Data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertMessage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="getResult" is-config="true" duration-ms="1" started-at="2020-11-16T14:51:08Z" finished-at="2020-11-16T14:51:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.practo.getAlertMessage@5a61f5df]" name="tearDown" is-config="true" duration-ms="350" started-at="2020-11-16T14:51:08Z" finished-at="2020-11-16T14:51:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

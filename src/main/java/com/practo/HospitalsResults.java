@@ -9,6 +9,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.*;
 
+import com.utils.CreateExcel;
+
 /*
  * This page class is to handle all the operations related to the process 
  * of going through all the results based on the given criteria and extracting 
@@ -72,7 +74,8 @@ public class HospitalsResults {
 		/*
 		 * Getting the names of hospitals and their star ratings from the 
 		 * completely loaded results search webpage. Then printing the names 
-		 * of the hospitals with rating greater than 3.5 in the console.*/
+		 * of the hospitals with rating greater than 3.5 in the console.
+		 * */
 		System.out.println("\nHospitals With Rating More Than 3.5:");
 		
 		//Storing the names of the hospitals that have a star rating.

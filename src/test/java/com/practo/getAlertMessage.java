@@ -7,9 +7,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.AssertJUnit;
 import org.testng.annotations.*;
 
 import com.aventstack.extentreports.Status;
+import com.utils.CreateReport;
+import com.utils.HandleBrowser;
+import com.utils.ReadExcelData;
 
 public class getAlertMessage extends CreateReport {
 
@@ -54,30 +58,38 @@ public class getAlertMessage extends CreateReport {
 		case "Invalid Email":
 			if (errorMes.equals("Please enter valid email address"))
 				test.log(Status.PASS, errorMes);
-			else
+			else {
 				test.log(Status.FAIL, errorMes);
+				AssertJUnit.fail();
+			}
 			break;
 
 		case "Invalid Phone Number":
 			if (errorMes.equals("Please enter valid phone no"))
 				test.log(Status.PASS, errorMes);
-			else
+			else {
 				test.log(Status.FAIL, errorMes);
+				AssertJUnit.fail();
+			}
 			break;
 
 		case "Invalid Name":
 			if (errorMes.equals("Please enter valid name"))
 				test.log(Status.PASS, errorMes);
-			else
+			else {
 				test.log(Status.FAIL, errorMes);
+				AssertJUnit.fail();
+			}
 			break;
 
 		case "Valid Data":
 			if (errorMes
 					.equals("Thanks, for showing We have received your request, our team will contact you shortly."))
 				test.log(Status.PASS, errorMes);
-			else
+			else {
 				test.log(Status.FAIL, errorMes);
+				AssertJUnit.fail();
+			}
 			break;
 		}
 

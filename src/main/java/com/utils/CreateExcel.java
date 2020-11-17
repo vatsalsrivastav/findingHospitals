@@ -1,4 +1,4 @@
-package com.practo;
+package com.utils;
 
 import java.io.*;
 import java.util.*;
@@ -74,7 +74,7 @@ public class CreateExcel {
 			// generated and stored.
 			System.out
 					.println("\nHospital_Information.xlsx successfully stored at: "
-							+ storage);
+							+ storage + "\n");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

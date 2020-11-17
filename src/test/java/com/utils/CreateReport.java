@@ -1,4 +1,4 @@
-package com.practo;
+package com.utils;
 
 import org.testng.ITestResult;
 import org.testng.annotations.*;

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="22" passed="22">
   <reporter-output>
   </reporter-output>
-  <suite name="Finding Hospitals" duration-ms="336932" started-at="2020-10-31T04:31:38Z" finished-at="2020-10-31T04:37:15Z">
+  <suite name="Finding Hospitals" duration-ms="308303" started-at="2020-11-16T09:57:20Z" finished-at="2020-11-16T10:02:28Z">
     <groups>
     </groups>
-    <test name="Verifying Search Page" duration-ms="25382" started-at="2020-10-31T04:31:38Z" finished-at="2020-10-31T04:32:03Z">
+    <test name="Verifying Search Page" duration-ms="22850" started-at="2020-11-16T09:57:20Z" finished-at="2020-11-16T09:57:43Z">
       <class name="com.practo.verifySearchResults">
-        <test-method status="PASS" signature="checkSearchPage()[pri:0, instance:com.practo.verifySearchResults@5e5792a0]" name="checkSearchPage" duration-ms="25357" started-at="2020-10-31T10:01:38Z" finished-at="2020-10-31T10:02:03Z">
+        <test-method status="PASS" signature="checkSearchPage()[pri:0, instance:com.practo.verifySearchResults@5e5792a0]" name="checkSearchPage" duration-ms="22825" started-at="2020-11-16T15:27:20Z" finished-at="2020-11-16T15:27:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSearchPage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.verifySearchResults@5e5792a0]" name="getResult" is-config="true" duration-ms="7" started-at="2020-10-31T10:02:03Z" finished-at="2020-10-31T10:02:03Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.verifySearchResults@5e5792a0]" name="getResult" is-config="true" duration-ms="3" started-at="2020-11-16T15:27:43Z" finished-at="2020-11-16T15:27:43Z">
           <params>
             <param index="0">
               <value>
@@ -24,13 +24,13 @@
         </test-method> <!-- getResult -->
       </class> <!-- com.practo.verifySearchResults -->
     </test> <!-- Verifying Search Page -->
-    <test name="Verifying Top Cities" duration-ms="15991" started-at="2020-10-31T04:32:03Z" finished-at="2020-10-31T04:32:19Z">
+    <test name="Verifying Top Cities" duration-ms="18496" started-at="2020-11-16T09:57:43Z" finished-at="2020-11-16T09:58:01Z">
       <class name="com.practo.verifyTopCities">
-        <test-method status="PASS" signature="countCities()[pri:0, instance:com.practo.verifyTopCities@5442a311]" name="countCities" duration-ms="15984" started-at="2020-10-31T10:02:03Z" finished-at="2020-10-31T10:02:19Z">
+        <test-method status="PASS" signature="countCities()[pri:0, instance:com.practo.verifyTopCities@5442a311]" name="countCities" duration-ms="18493" started-at="2020-11-16T15:27:43Z" finished-at="2020-11-16T15:28:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- countCities -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.verifyTopCities@5442a311]" name="getResult" is-config="true" duration-ms="1" started-at="2020-10-31T10:02:19Z" finished-at="2020-10-31T10:02:19Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.verifyTopCities@5442a311]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T15:28:01Z" finished-at="2020-11-16T15:28:01Z">
           <params>
             <param index="0">
               <value>
@@ -43,13 +43,13 @@
         </test-method> <!-- getResult -->
       </class> <!-- com.practo.verifyTopCities -->
     </test> <!-- Verifying Top Cities -->
-    <test name="Getting Alert Message" duration-ms="295512" started-at="2020-10-31T04:32:19Z" finished-at="2020-10-31T04:37:15Z">
+    <test name="Getting Alert Message" duration-ms="266927" started-at="2020-11-16T09:58:01Z" finished-at="2020-11-16T10:02:28Z">
       <class name="com.practo.getAlertMessage">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="setUp" is-config="true" duration-ms="194" started-at="2020-10-31T10:01:38Z" finished-at="2020-10-31T10:01:38Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="setUp" is-config="true" duration-ms="290" started-at="2020-11-16T15:27:20Z" finished-at="2020-11-16T15:27:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="15477" started-at="2020-10-31T10:02:20Z" data-provider="TestData" finished-at="2020-10-31T10:02:35Z">
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="12300" started-at="2020-11-16T15:28:02Z" data-provider="TestData" finished-at="2020-11-16T15:28:14Z">
           <params>
             <param index="0">
               <value>
@@ -80,7 +80,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2020-10-31T10:02:35Z" finished-at="2020-10-31T10:02:35Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T15:28:14Z" finished-at="2020-11-16T15:28:14Z">
           <params>
             <param index="0">
               <value>
@@ -91,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="14920" started-at="2020-10-31T10:02:35Z" data-provider="TestData" finished-at="2020-10-31T10:02:50Z">
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="12974" started-at="2020-11-16T15:28:14Z" data-provider="TestData" finished-at="2020-11-16T15:28:27Z">
           <params>
             <param index="0">
               <value>
@@ -122,7 +122,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-10-31T10:02:50Z" finished-at="2020-10-31T10:02:50Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2020-11-16T15:28:27Z" finished-at="2020-11-16T15:28:27Z">
           <params>
             <param index="0">
               <value>
@@ -133,7 +133,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="12454" started-at="2020-10-31T10:02:50Z" data-provider="TestData" finished-at="2020-10-31T10:03:03Z">
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="14307" started-at="2020-11-16T15:28:27Z" data-provider="TestData" finished-at="2020-11-16T15:28:42Z">
           <params>
             <param index="0">
               <value>
@@ -164,7 +164,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-10-31T10:03:03Z" finished-at="2020-10-31T10:03:03Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T15:28:42Z" finished-at="2020-11-16T15:28:42Z">
           <params>
             <param index="0">
               <value>
@@ -175,7 +175,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="12129" started-at="2020-10-31T10:03:03Z" data-provider="TestData" finished-at="2020-10-31T10:03:15Z">
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="12833" started-at="2020-11-16T15:28:42Z" data-provider="TestData" finished-at="2020-11-16T15:28:54Z">
           <params>
             <param index="0">
               <value>
@@ -206,18 +206,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2020-10-31T10:03:15Z" finished-at="2020-10-31T10:03:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="13778" started-at="2020-10-31T10:03:15Z" data-provider="TestData" finished-at="2020-10-31T10:03:29Z">
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="11714" started-at="2020-11-16T15:28:54Z" data-provider="TestData" finished-at="2020-11-16T15:29:06Z">
           <params>
             <param index="0">
               <value>
@@ -248,7 +237,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-10-31T10:03:29Z" finished-at="2020-10-31T10:03:29Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T15:28:54Z" finished-at="2020-11-16T15:28:54Z">
           <params>
             <param index="0">
               <value>
@@ -259,7 +248,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="15430" started-at="2020-10-31T10:03:29Z" data-provider="TestData" finished-at="2020-10-31T10:03:44Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T15:29:06Z" finished-at="2020-11-16T15:29:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="11503" started-at="2020-11-16T15:29:06Z" data-provider="TestData" finished-at="2020-11-16T15:29:18Z">
           <params>
             <param index="0">
               <value>
@@ -290,7 +290,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-10-31T10:03:44Z" finished-at="2020-10-31T10:03:44Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T15:29:18Z" finished-at="2020-11-16T15:29:18Z">
           <params>
             <param index="0">
               <value>
@@ -301,7 +301,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="14890" started-at="2020-10-31T10:03:44Z" data-provider="TestData" finished-at="2020-10-31T10:03:59Z">
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="12656" started-at="2020-11-16T15:29:18Z" data-provider="TestData" finished-at="2020-11-16T15:29:30Z">
           <params>
             <param index="0">
               <value>
@@ -332,7 +332,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2020-10-31T10:03:59Z" finished-at="2020-10-31T10:03:59Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T15:29:30Z" finished-at="2020-11-16T15:29:30Z">
           <params>
             <param index="0">
               <value>
@@ -343,7 +343,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="13614" started-at="2020-10-31T10:03:59Z" data-provider="TestData" finished-at="2020-10-31T10:04:13Z">
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="13410" started-at="2020-11-16T15:29:30Z" data-provider="TestData" finished-at="2020-11-16T15:29:44Z">
           <params>
             <param index="0">
               <value>
@@ -374,7 +374,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2020-10-31T10:04:13Z" finished-at="2020-10-31T10:04:13Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T15:29:44Z" finished-at="2020-11-16T15:29:44Z">
           <params>
             <param index="0">
               <value>
@@ -385,7 +385,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="13391" started-at="2020-10-31T10:04:13Z" data-provider="TestData" finished-at="2020-10-31T10:04:26Z">
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="13621" started-at="2020-11-16T15:29:44Z" data-provider="TestData" finished-at="2020-11-16T15:29:57Z">
           <params>
             <param index="0">
               <value>
@@ -416,18 +416,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2020-10-31T10:04:26Z" finished-at="2020-10-31T10:04:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="17993" started-at="2020-10-31T10:04:26Z" data-provider="TestData" finished-at="2020-10-31T10:04:44Z">
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="12724" started-at="2020-11-16T15:29:57Z" data-provider="TestData" finished-at="2020-11-16T15:30:10Z">
           <params>
             <param index="0">
               <value>
@@ -458,7 +447,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-10-31T10:04:44Z" finished-at="2020-10-31T10:04:44Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T15:29:57Z" finished-at="2020-11-16T15:29:57Z">
           <params>
             <param index="0">
               <value>
@@ -469,7 +458,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="23012" started-at="2020-10-31T10:04:44Z" data-provider="TestData" finished-at="2020-10-31T10:05:07Z">
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="14876" started-at="2020-11-16T15:30:10Z" data-provider="TestData" finished-at="2020-11-16T15:30:25Z">
           <params>
             <param index="0">
               <value>
@@ -500,7 +489,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2020-10-31T10:05:07Z" finished-at="2020-10-31T10:05:07Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T15:30:10Z" finished-at="2020-11-16T15:30:10Z">
           <params>
             <param index="0">
               <value>
@@ -511,7 +500,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="14030" started-at="2020-10-31T10:05:07Z" data-provider="TestData" finished-at="2020-10-31T10:05:21Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T15:30:25Z" finished-at="2020-11-16T15:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="15377" started-at="2020-11-16T15:30:25Z" data-provider="TestData" finished-at="2020-11-16T15:30:40Z">
           <params>
             <param index="0">
               <value>
@@ -542,7 +542,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2020-10-31T10:05:21Z" finished-at="2020-10-31T10:05:21Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T15:30:40Z" finished-at="2020-11-16T15:30:40Z">
           <params>
             <param index="0">
               <value>
@@ -553,7 +553,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="12754" started-at="2020-10-31T10:05:21Z" data-provider="TestData" finished-at="2020-10-31T10:05:34Z">
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="12610" started-at="2020-11-16T15:30:40Z" data-provider="TestData" finished-at="2020-11-16T15:30:53Z">
           <params>
             <param index="0">
               <value>
@@ -584,18 +584,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2020-10-31T10:05:34Z" finished-at="2020-10-31T10:05:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="13839" started-at="2020-10-31T10:05:34Z" data-provider="TestData" finished-at="2020-10-31T10:05:48Z">
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="14181" started-at="2020-11-16T15:30:53Z" data-provider="TestData" finished-at="2020-11-16T15:31:07Z">
           <params>
             <param index="0">
               <value>
@@ -626,7 +615,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="2" started-at="2020-10-31T10:05:48Z" finished-at="2020-10-31T10:05:48Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T15:30:53Z" finished-at="2020-11-16T15:30:53Z">
           <params>
             <param index="0">
               <value>
@@ -637,7 +626,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="13133" started-at="2020-10-31T10:05:48Z" data-provider="TestData" finished-at="2020-10-31T10:06:01Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2020-11-16T15:31:07Z" finished-at="2020-11-16T15:31:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="14034" started-at="2020-11-16T15:31:07Z" data-provider="TestData" finished-at="2020-11-16T15:31:21Z">
           <params>
             <param index="0">
               <value>
@@ -668,7 +668,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2020-10-31T10:06:01Z" finished-at="2020-10-31T10:06:01Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2020-11-16T15:31:21Z" finished-at="2020-11-16T15:31:21Z">
           <params>
             <param index="0">
               <value>
@@ -679,7 +679,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="14121" started-at="2020-10-31T10:06:01Z" data-provider="TestData" finished-at="2020-10-31T10:06:15Z">
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="13355" started-at="2020-11-16T15:31:21Z" data-provider="TestData" finished-at="2020-11-16T15:31:35Z">
           <params>
             <param index="0">
               <value>
@@ -710,7 +710,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-10-31T10:06:15Z" finished-at="2020-10-31T10:06:15Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T15:31:35Z" finished-at="2020-11-16T15:31:35Z">
           <params>
             <param index="0">
               <value>
@@ -721,7 +721,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="13956" started-at="2020-10-31T10:06:15Z" data-provider="TestData" finished-at="2020-10-31T10:06:29Z">
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="12744" started-at="2020-11-16T15:31:35Z" data-provider="TestData" finished-at="2020-11-16T15:31:47Z">
           <params>
             <param index="0">
               <value>
@@ -752,7 +752,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="20364" started-at="2020-10-31T10:06:29Z" data-provider="TestData" finished-at="2020-10-31T10:06:49Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2020-11-16T15:31:47Z" finished-at="2020-11-16T15:31:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="13845" started-at="2020-11-16T15:31:47Z" data-provider="TestData" finished-at="2020-11-16T15:32:01Z">
           <params>
             <param index="0">
               <value>
@@ -783,7 +794,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-10-31T10:06:29Z" finished-at="2020-10-31T10:06:29Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T15:32:01Z" finished-at="2020-11-16T15:32:01Z">
           <params>
             <param index="0">
               <value>
@@ -794,18 +805,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2020-10-31T10:06:49Z" finished-at="2020-10-31T10:06:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=alertMessage status=SUCCESS method=getAlertMessage.alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="11925" started-at="2020-10-31T10:06:49Z" data-provider="TestData" finished-at="2020-10-31T10:07:01Z">
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="13930" started-at="2020-11-16T15:32:01Z" data-provider="TestData" finished-at="2020-11-16T15:32:15Z">
           <params>
             <param index="0">
               <value>
@@ -836,7 +836,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2020-10-31T10:07:01Z" finished-at="2020-10-31T10:07:01Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T15:32:15Z" finished-at="2020-11-16T15:32:15Z">
           <params>
             <param index="0">
               <value>
@@ -847,7 +847,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="13607" started-at="2020-10-31T10:07:01Z" data-provider="TestData" finished-at="2020-10-31T10:07:15Z">
+        <test-method status="PASS" signature="alertMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="alertMessage" duration-ms="13342" started-at="2020-11-16T15:32:15Z" data-provider="TestData" finished-at="2020-11-16T15:32:28Z">
           <params>
             <param index="0">
               <value>
@@ -878,7 +878,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertMessage -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-10-31T10:07:15Z" finished-at="2020-10-31T10:07:15Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="getResult" is-config="true" duration-ms="0" started-at="2020-11-16T15:32:28Z" finished-at="2020-11-16T15:32:28Z">
           <params>
             <param index="0">
               <value>
@@ -889,7 +889,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="tearDown" is-config="true" duration-ms="479" started-at="2020-10-31T10:07:15Z" finished-at="2020-10-31T10:07:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.practo.getAlertMessage@6eebc39e]" name="tearDown" is-config="true" duration-ms="346" started-at="2020-11-16T15:32:28Z" finished-at="2020-11-16T15:32:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
